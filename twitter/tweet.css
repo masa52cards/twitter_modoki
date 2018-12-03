@@ -1,0 +1,127 @@
+.submit_btn{
+    height:30px;
+    width: 150px;
+padding:0 10px; 
+position:absolute; 
+Right:50px;
+    border-radius: 25px;
+top:; 
+    background: url(tweet_b.png);
+}
+ 
+.submit_btn:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
+
+
+.star{
+    position:absolute; 
+left:0px;
+    top: 45px;
+}
+
+.spaed{
+    border-radius: 100%;
+    position:absolute; 
+left:85px;
+    top: 236px;
+    border:solid 6px #fff;
+
+}
+.down{
+    position:absolute;
+    background-color:aliceblue;
+    left: 0px;
+    top: 425px;
+    width: 100%;
+    height: 2000px;
+    
+}
+
+.down2{
+     position:absolute;
+    left: 90px;
+    top: 18px;
+    width:280px
+}
+
+.down2 h3{
+    margin-bottom: 1px;
+    margin-top: px;
+}
+
+.down2 p{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-size:14px;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+.down2 p:first-of-type{
+    margin-bottom: 15px;
+    margin-top: 1px;
+    color: gray;
+    font-size: 90%;
+}
+
+.modal {
+  display: none;
+  width: 50vw;
+  height: 50vw;
+  background-color: #fff;
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  margin: auto;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, .5);
+    
+
+}
+#modal-check {
+  display: none;
+}
+#modal-check:checked + .modal {
+  display: block;
+    z-index: 99;
+    
+}
+
+.tex_a{
+    position:absolute; 
+    top:100px;
+    left: 150px;
+    background-color: aqua
+    z-index: 100;
+}
+
+.tweet_label{
+    position:absolute; 
+    top:235px;
+    left: 380px;
+    background-color: aqua
+    z-index: 100;
+}
+.can_label{
+    position:absolute; 
+    top:235px;
+    left: 450px;
+    background-color: aqua
+    z-index: 100;
+}
+
+.feed_a{
+    position:absolute; 
+    top:480px;
+    left: 440px;
+    width: 35%;
+    background-color: aqua
+    z-index: 50  ;
+}
+
+.feed_a h3{
+    margin-bottom: 5px;
+    margin-top:0px;
+}

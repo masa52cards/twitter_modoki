@@ -1,0 +1,34 @@
+#sbox4 {
+    height: 24px;
+    width: 180px;
+    padding: 0 10px;
+    position: absolute;
+    Right: 230px;
+    top: ;
+    border-radius: 25px;
+    outline: 0;
+    background: #eee;
+}
+
+#sbtn4 {
+    height: 27px;
+    width: 30px;
+    position: absolute;
+    right: 230px;
+    top: ;
+    background: #7fbfff;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+
+#sbtn4 .fa-search {
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#sbtn4:hover {
+    color: #888;
+}
